@@ -154,6 +154,11 @@ ul li:hover {
 .menu-toogle input:checked ~ span:nth-child(3) {
     transform: scale(0);
 }
+
+nav .logo h3 {
+        color: white;
+        text-shadow: 2px 2px 4px black;
+}
 /* Bagian Navbar Akhir */
 
 /* Bagian Header Awal */
@@ -291,5 +296,10 @@ img {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     gap: 5px;
+}
+
+.judul {
+    color: white;
+    text-shadow: 2px 2px 4px black;
 }
 /* Bagian Galeri Akhir */
